@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: #fff;
+	font-family: Montserrat;
+}
+.login-section ul{
+	display: flex;
+	text-align: right;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: relative;
+	line-height: none;
+	outline: none;
+	justify-content: flex-end;
+}
+.login-section ul li{
+	list-style: none;
+	display: inline-block;
+    line-height: 24px;
+    outline: none;
+    vertical-align: middle;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.main{
+	min-height: 300px;																	
+}
+.main .img{
+	text-align: center;
+	margin-top: 8.6%;		
+	justify-content: center;
+	display: flex;
+	align-items: center;	
+}
+.img img{
+	height: 92px;
+    width: 272px;
+}
+.input{
+	display: block;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.input input{
+	width: 500px;
+	margin-top: 30px;
+	border: 1px solid #e32d;
+	box-shadow:0px #eee;
+	border-radius: 25px;
+	height: 45px;
+	z-index: 11;
+	outline: none;
+}
+.input input[type=text]:focus{
+	 border-color: #e32d;
+    box-shadow: 0 0 20px #e32d;
+}
+.button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 35px;
+}
+.button button{
+	padding: 15px;
+	cursor: pointer;
+	color: #5F6368;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	margin-left: 10px;
+	background-color: #f2f2f2;
+}
+.button button:hover{
+	color: #000;
+	background-color: #f2f2f2;
+	border: 1px solid #5F6368;
+}
